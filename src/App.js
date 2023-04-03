@@ -10,6 +10,7 @@ function App() {
      const waName = otplessUser.waName;
      const waNumber = otplessUser.waNumber;
          
+     console.log("whatsapp otp")
      // Handle the signup/signin process
      // ...
     };

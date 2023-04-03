@@ -6,12 +6,24 @@ import Signin from './signIn';
 import Success from './Success';
 
 function App() {
+  useEffect(() => {
+    // Define the 'otpless' function
+    window.otpless = (otplessUser) => {
+     // Retrieve the user's details after successful login
+     const waName = otplessUser.waName;
+     const waNumber = otplessUser.waNumber;
+         
+     console.log('otpless console : ',otplessUser)
+     console.log(waName)
+     // Handle the signup/signin process
+     // ...
+    };
+   }, []);
   return (
     <>
-       <NavLink>
-        <Route path='/' Component={Signin}></Route>
-        <Route path='/success' Component={Success}></Route>
-    </NavLink>
+      <div>
+        signIn
+      </div>
     </>
 
   );

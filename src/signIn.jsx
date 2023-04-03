@@ -11,7 +11,6 @@ const Signin = () => {
              
          console.log('otpless console : ',otplessUser)
          console.log(waName)
-        window.location.href = Nav('/success')
          // Handle the signup/signin process
          // ...
         };

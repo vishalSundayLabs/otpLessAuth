@@ -11,6 +11,7 @@ function App() {
      const waNumber = otplessUser.waNumber;
          
      console.log('otpless console : ',otplessUser)
+     console.log(waName)
      // Handle the signup/signin process
      // ...
     };
